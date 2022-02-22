@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #e2e1e6;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header .logo{
+    text-decoration: none;
+    color: rgb(56, 64, 177);
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size:1.1em ;
+    font-weight:500 ;
+    color:rgb(56, 64, 177);
+    padding-left: 30px;   
+}
+
+ header nav a:hover{
+    color: rgb(196, 48, 176);
+}
+
+
+section{
+    padding: 100px 150px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("../images/input-bg-05.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color:#000;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.main h2 span{
+    display: inline-block;
+    color: rgb(33, 42, 175);
+    font-size: 3em;
+    font-weight: 600;
+    margin-top:10px ;
+}
+
+.main h3{
+    font-size:2em ;
+    font-weight:700 ;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main_btn{
+    color: white;
+    background-color: rgb(56, 64, 177);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main_btn:hover{
+    background-color: rgb(33, 42, 175);
+    transform: scale(1.1);
+}
+
+.main .Project_Card{
+    background-color: rgba(255, 255, 255, 50%);
+    min-width: 23em;
+    border: 1px solid #fff;
+    min-height: 14em; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.main .Project_image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Social_icon a{
+    color: #fff;
+    font-size: 1.9em;
+    padding-right: 30px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight:800 ;
+    margin-bottom: 30px;
+    color: rgb(56, 64, 177);
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Card{
+
+    background-color: #fff;
+    width: 17.8em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1,15% );
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    font-size:8em ;
+    text-align: center;
+    color: rgb(56, 64, 177);
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(56, 64, 177);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+.Project{
+    background-color: #e4e4e4;
+}
+.Project .content{
+    margin-top: 30px;
+}
+
+.Project_Card{
+    background-color: #fff;
+    width: 23em;
+    border: 1px solid #fff;
+    min-height: 14em; 
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.Project_Card:hover{
+    transform: scale(1.1);
+}
+
+.Project_Card:hover .Project_image{
+    opacity: 0.9;
+}
+
+.Project_image img{
+    width: 100%;
+    
+}
+
+
+.Project_Info{
+    padding: 1em;
+}
+
+
+.Project_Category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.Project_title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px ;
+}
+
+.More_detaile{
+    text-decoration: none;
+    color: rgb(56, 64, 177);
+}
+
+.More_detaile:hover{
+    color: rgb(196, 48, 176);
+}
+
+
+.Contact .icon{
+    font-size: 4.5em;
+}
+
+.Contact .info h3{
+    color: #000;
+}
+
+/* ................................................... */
+
+@media (max-width:1280px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        padding: 100px 100px;
+    }
+
+    .main {
+       
+        justify-content: space-around;
+    }
+
+     .main .Project_Card{
+         min-width: 15em;
+         margin: 20px;
+     }
+
+    .main h2 {
+        font-size: 1.1em;
+    }
+    .main h2 span {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1.5em;
+    }
+
+    .Project{
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 10px 20px;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    section{
+        padding: 100px 100px;
+    }
+
+    .main {
+       
+        justify-content: space-around;
+    }
+
+     .main .Project_Card{
+         min-width: 17em;
+         margin: 20px;
+     }
+
+    .main h2 {
+        font-size: 1.1em;
+    }
+    .main h2 span {
+        font-size: 2em;
+    }
+    .main h3 {
+        font-size: 1.5em;
+    }
+
+    .Project{
+        padding: 100px 50px;
+    }
+
+    .Contact .title {
+        font-size:1.8em;
+    }
+}
+
+@media (max-width:641px){
+    header{
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:600px){
+    header{
+        padding: 10px 6px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
