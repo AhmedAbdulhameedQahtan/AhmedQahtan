@@ -38,7 +38,7 @@ header nav a:hover{
 
 section{
     padding: 40px 15px;
-    min-height: 80vh;
+    min-height: 50vh;
 }
 
 
@@ -49,7 +49,7 @@ section{
     justify-content:space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-image: url("../images/input-bg-05.jpg") ;
+    background-image: url("../images/home-bg-slideshow2.jpg") ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -72,7 +72,7 @@ section{
 .main h3{
     font-size:2.2em ;
     font-weight:700 ;
-    color: rgb(80, 80, 88);
+    color: white;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -101,7 +101,7 @@ section{
     transition: 0.7s ease;
 }
 .Social_icon a{
-    color: #fff;
+    color: rgb(80, 80, 88);
     font-size: 2em;
     padding-right: 40px;
 
@@ -109,8 +109,9 @@ section{
 
 .main .Social_icon :hover{
     transform: scale(1.5);
+    color: #fff;
 }
-
+/* 
 .main .Profile_Card{
     background-color: rgba(80, 80, 88, 70%);
     max-width: 25em;
@@ -161,7 +162,7 @@ section{
 
 .profile_More_detaile:hover{
     color: rgb(123, 141, 238);
-}
+} */
 
 .title{
     display: flex;
@@ -181,7 +182,8 @@ section{
 
 .Card{
     background-color: #fff;
-    width: 13em;
+    min-width: 25em;
+    min-height: 16em;
     box-shadow: 0 5px 25px rgba(1, 1, 1,15% );
     border-radius: 10px;
     padding: 20px;
@@ -190,10 +192,11 @@ section{
 }
 
 .Card:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .icon{
+    margin-bottom: 20px;
     font-size:4em ;
     text-align: center;
     color: rgb(56, 64, 177);
@@ -220,17 +223,17 @@ section{
 
 .Project_Card{
     background-color: #fff;
-    width: 15em;
+    width: 25em;
     border: 1px solid #fff;
     min-height: 14em; 
     border-radius: 10px;
     overflow: hidden;
-    margin: 10px;
+    margin: 15px;
     transition: 0.7s ease;
 }
 
 .Project_Card:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .Project_image{
