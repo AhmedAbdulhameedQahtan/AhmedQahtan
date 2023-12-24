@@ -38,13 +38,12 @@ header nav a:hover{
 
 section{
     padding: 40px 15px;
-    min-height: 50vh;
 }
 
 
 .main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content:space-around;
     align-items: center;
