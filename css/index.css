@@ -25,6 +25,10 @@ header .logo{
     font-size: 2.5em;
 }
 
+header .logo strong{
+    color:#00c6d7;
+}
+
 header nav a{
     text-decoration: none;
     font-size:1.5em ;
@@ -34,7 +38,7 @@ header nav a{
 }
 
 header nav a:hover{
-    color: rgb(123, 141, 238);
+    color: #00c6d7;
 }
 
 
@@ -95,14 +99,14 @@ section{
 }
 
 .main h2{
-    color:#000;
+    color:#00c6d7;
     font-weight: 500;
     font-size: 1.2em;
     margin-top: 30%;
 }
 .main h2 span{
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 198, 215);
     font-size: 3em;
     font-weight: 600;
     margin-top:-25px ;
@@ -120,7 +124,7 @@ section{
 .main_btn{
     color: #202020;
     background-color: hsl(0, 0%, 100%);
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 50%);
+    box-shadow: 0 5px 20px rgba(0, 198, 215,50%);
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 600;
@@ -136,7 +140,7 @@ section{
 
 .main_btn:hover{
     background-color: #202020;
-    color: #fff;
+    color: rgb(0, 198, 215);
     transform: scale(1.1);
 }
 
@@ -148,12 +152,12 @@ section{
     color: #fff;
     font-size: 2em;
     padding-right: 40px;
-
+    text-align: center;
 }
 
-.main .Social_icon :hover{
+.main .Social_icon a :hover{
     transform: scale(1.3);
-    color: #fff;
+    color: #00c6d7;
 }
 /* 
 .main .Profile_Card{
@@ -214,7 +218,7 @@ section{
     font-size: 3.5em;
     font-weight:800 ;
     margin-bottom: 20px;
-    color: rgb(56, 64, 177);
+    color: rgb(0, 198, 215);
 }
 
 .content{
@@ -243,7 +247,7 @@ section{
     margin-bottom: 20px;
     font-size:4em ;
     text-align: center;
-    color: rgb(56, 64, 177);
+    color: rgb(0, 198, 215);
 }
 
 .info{
@@ -251,7 +255,7 @@ section{
 }
 
 .info h3{
-    color: rgb(56, 64, 177);
+    color: rgb(0, 0, 0);
     font-size: 1.3em;
     font-weight: 700;
     margin: 10px;
@@ -320,7 +324,7 @@ section{
     text-decoration: none;
     font-weight: 700;
     margin-top: 10px;
-    color: rgb(56, 64, 177);;
+    color: rgb(0, 198, 215);
 }
 
 .More_detaile:hover{
@@ -342,7 +346,7 @@ section{
 .footer .box-container .box h3 {
     font-size: 1.5em;
     text-transform: capitalize;
-    color: rgb(56, 64, 177);;
+    color: rgb(0, 198, 215);
     padding: 1em 0;
 }
 
@@ -364,7 +368,7 @@ section{
     text-decoration: none;
     border-radius: 50%;
     font-size: 1.5em;
-    color: rgb(56, 64, 177);;
+    color: rgb(0, 198, 215);
     margin-right: 5px;
     text-align: center;
     transition: 0.7s ease;
@@ -377,7 +381,7 @@ section{
 .footer .box-container .box .link {
     font-size: 1.em;
     line-height: 2;
-    color: rgb(56, 64, 177);;
+    color: rgb(0, 198, 215);
     padding: .5em 0;
     display: block;
     text-decoration: none;
@@ -395,9 +399,9 @@ section{
     font-size: 1em;
     text-transform: capitalize;
     color: #444;
-    border-top: 0.1rem solid rgb(56, 64, 177);;
+    border-top: 0.1rem solid rgb(0, 198, 215);
 }
 
 .footer .credit span {
-    color: rgb(56, 64, 177);;
+    color: rgb(0, 198, 215);
 }
